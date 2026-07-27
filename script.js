@@ -4,6 +4,7 @@ const card = document.getElementById("card");
 const photo = document.getElementById("photo");
 const music = document.getElementById("music");
 const thankMsg = document.getElementById("thankMsg");
+const nextPageBtn = document.getElementById("nextPageBtn");
 
 // Images List
 const images = [
@@ -27,6 +28,7 @@ surpriseBtn.addEventListener("click", () => {
     console.log("Music play blocked");
 });
     thankMsg.classList.add("show");
+    nextPageBtn.classList.add("show");
 
     // First Image
   photo.style.opacity = "0";
